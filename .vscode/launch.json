@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - OddOrEven",
+      "request": "launch",
+      "mainClass": "OddOrEven"
+    }
+  ]
+}

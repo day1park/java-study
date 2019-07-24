@@ -2,6 +2,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - OddOrEven",
       "request": "launch",
       "mainClass": "OddOrEven"

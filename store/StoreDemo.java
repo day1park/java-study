@@ -28,7 +28,13 @@ public class StoreDemo {
 
   // return item code searched through item name
   public static int getItemCode(Item[] items, String itemName) {
-
+    // loop through all items
+    for (Item item : items) {
+      if (item.getItemName().equals(itemName)) {
+        return item.getItemCode();
+      }
+    }
+    return -1;
   }
 
   public static void main(String[] args) {

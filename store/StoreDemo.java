@@ -37,6 +37,11 @@ public class StoreDemo {
     return -1;
   }
 
+  // get list of items with specific price
+  public static Item[] getItemsWithSpecificPrice(Item[] items, double itemPrice) {
+    Item[]
+  }
+
   public static void main(String[] args) {
 
   }
